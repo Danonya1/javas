@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- Для лаб3+ закоментрировать  8-26-->
+    <!-- Определение FishPizzaMaker bean -->
+<!--    <bean id="deliveryService" class="com.example.labs.component.DeliveryService"/>-->
+<!--    <bean id="payService" class="com.example.labs.component.PayService"/>-->
+
+<!--    <bean id="fishPizzaMaker" class="com.example.labs.component.maker.FishPizzaMaker" init-method="postConstruct">-->
+<!--        <constructor-arg ref="deliveryService"/>-->
+<!--        <constructor-arg ref="payService"/>-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash; Определение VegetarianPizzaMaker bean &ndash;&gt;-->
+<!--    <bean id="vegetarianPizzaMaker" class="com.example.labs.component.maker.VegetarianPizzaMaker" init-method="postConstruct">-->
+<!--        <constructor-arg ref="deliveryService"/>-->
+<!--        <property name="payService" ref="payService"/>-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash; Определение ChiefPizzaMaker bean с scope prototype &ndash;&gt;-->
+<!--    <bean id="chiefPizzaMaker" class="com.example.labs.component.maker.ChiefPizzaMaker" scope="prototype" init-method="postConstruct">-->
+<!--        <property name="deliveryService" ref="deliveryService"/>-->
+<!--        <property name="payService" ref="payService"/>-->
+<!--    </bean>-->
+</beans>

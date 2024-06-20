@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+</head>
+<body>
+    <h1>Pizzeria</h1>
+
+    <form action="/" method="post">
+        <label for="pizzaType">Pizza type</label><br>
+        <select id="pizzaType" name="pizzaType">
+            <option value="chief">Chief</option>
+            <option value="fish">Fish</option>
+            <option value="vegetarian">Vegetarian</option>
+        </select><br><br>
+
+        <label for="customerName">Customer name:</label><br>
+        <input id="customerName" name="customerName" type="text"><br><br>
+
+        <label for="pizzaAction">Pizza type:</label><br>
+        <select id="pizzaAction" name="pizzaAction">
+            <option value="create">Order pizza</option>
+            <option value="update">Update pizza</option>
+            <option value="getAll">Get pizzas info</option>
+            <option value="get">Get pizza info</option>
+            <option value="delete">Delete pizza</option>
+        </select><br><br>
+
+        <input type="submit" value="Make operation">
+    </form>
+</body>
+</html>
